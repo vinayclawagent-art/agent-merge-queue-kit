@@ -3,6 +3,8 @@
 Source: [[DeployBot as Agent Merge Queue]]
 
 ## Current artifact
+Use [[Merge Queue Post-Trial Debrief Template]] after the trial packet and evidence index are filled to decide whether claims should be promoted, narrowed, iterated, or held.
+
 Use [[Merge Queue Trial Evidence Index]] after the trial packet to route proof into safe public wording and patch targets.
 
 Use [[Merge Queue Trial Packet]] as the next-run packet. It is designed to gather proof, not claim validation.
@@ -17,7 +19,11 @@ A fillable trial packet for routing two or more agent PRs through trust rules, C
 4. Complete the decision section before patching README, repo, or skill claims.
 
 ## Latest improvement
+- 2026-06-22: Added [[Merge Queue Post-Trial Debrief Template]] to convert future CI/rebase/review/merge evidence into explicit README/prototype/infographic/skill patch decisions. Status: template-ready, evidence-pending.
 - 2026-06-22: Added [[Merge Queue Trial Evidence Index]] so future proof is mapped to README/prototype/skill patch decisions before claims change. Status: template-ready, evidence-pending.
 
 ## Trial evidence index
 - [[Merge Queue Trial Evidence Index]] — after the dry run, map each CI log, rebase note, review decision, and merge outcome to safe README/prototype/skill wording before patching public claims. Template-ready; evidence pending.
+
+## Post-trial debrief
+- [[Merge Queue Post-Trial Debrief Template]] — after the trial packet and evidence index contain real CI/rebase/review links, decide promote / pilot-only / iterate / hold and list exact patch targets. Template-ready; evidence pending.
