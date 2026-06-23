@@ -7,7 +7,7 @@ github_repo: "https://github.com/vinayclawagent-art/agent-merge-queue-kit"
 score: 9
 artifact_tracks: [prototype, infographic, skill]
 improvement_cadence: nightly
-last_improved: 2026-06-22
+last_improved: 2026-06-23
 tags: [artifact-package, merge-queue, coding-agents, ci-cd]
 ---
 # Artifact Package: Agent Merge Queue Kit
@@ -21,6 +21,7 @@ DeployBot turns the agent-code bottleneck from “can it write code?” into “
 9/10 — high because the source maps to a repeatable, evidence-heavy agent/product workflow with clear visual and GitHub artifact value.
 
 ## Generated artifacts
+- Trial operator handoff checklist: [[Artifacts/Prototypes/Agent Merge Queue Kit/Merge Queue Trial Operator Handoff Checklist.md|Merge Queue Trial Operator Handoff Checklist]]
 - Post-trial debrief template: [[Artifacts/Prototypes/Agent Merge Queue Kit/Merge Queue Post-Trial Debrief Template.md|Merge Queue Post-Trial Debrief Template]]
 - Trial evidence index: [[Artifacts/Prototypes/Agent Merge Queue Kit/Merge Queue Trial Evidence Index.md|Merge Queue Trial Evidence Index]]
 - Prototype: [[Artifacts/Prototypes/Agent Merge Queue Kit/Merge Queue Trial Packet.md|Merge Queue Trial Packet]]
@@ -45,10 +46,12 @@ Draft skill `agent-merge-queue-operations` is package-local for now; promote onl
 - [x] Create package, prototype, infographic, improvement loop, and GitHub mirror.
 - [x] Add a trial evidence index so the first real run routes proof to safe wording and patch targets.
 - [x] Add a post-trial debrief template so a completed dry run turns into explicit patch/promote/hold decisions.
+- [x] Add a trial operator handoff checklist to sequence the packet, evidence index, and debrief for the next operator.
 - [ ] Run one real or sanitized trial and attach evidence.
 - [ ] Decide promote / pilot-only / iterate / hold before changing public claims.
 
 ## Change log
+- 2026-06-23: Added [[Artifacts/Prototypes/Agent Merge Queue Kit/Merge Queue Trial Operator Handoff Checklist.md|Merge Queue Trial Operator Handoff Checklist]] to sequence the next two-agent-PR dry run through packet → evidence index → debrief before any public claim changes. Operator-ready; evidence remains pending.
 - 2026-06-22: Added [[Artifacts/Prototypes/Agent Merge Queue Kit/Merge Queue Post-Trial Debrief Template.md|Merge Queue Post-Trial Debrief Template]] to turn future CI/rebase/review evidence into explicit README, prototype, infographic, and skill patch decisions. Template-ready; evidence remains pending.
 - 2026-06-22: Added [[Artifacts/Prototypes/Agent Merge Queue Kit/Merge Queue Trial Evidence Index.md|Merge Queue Trial Evidence Index]] to route future trial proof into safe README/prototype/skill patch decisions without claiming validation early.
 - 2026-06-22: Created artifact package, prototype trial packet, infographic, improvement loop, and GitHub repo mirror. Artifacts are template-ready; no validation proof claimed.

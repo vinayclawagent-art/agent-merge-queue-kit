@@ -3,6 +3,8 @@
 Source: [[DeployBot as Agent Merge Queue]]
 
 ## Current artifact
+Use [[Merge Queue Trial Operator Handoff Checklist]] to sequence the next dry-run operator through the packet, evidence index, and debrief without skipping evidence capture.
+
 Use [[Merge Queue Post-Trial Debrief Template]] after the trial packet and evidence index are filled to decide whether claims should be promoted, narrowed, iterated, or held.
 
 Use [[Merge Queue Trial Evidence Index]] after the trial packet to route proof into safe public wording and patch targets.
@@ -19,6 +21,7 @@ A fillable trial packet for routing two or more agent PRs through trust rules, C
 4. Complete the decision section before patching README, repo, or skill claims.
 
 ## Latest improvement
+- 2026-06-23: Added [[Merge Queue Trial Operator Handoff Checklist]] to make the next two-agent-PR dry run operator-ready while keeping claims evidence-pending.
 - 2026-06-22: Added [[Merge Queue Post-Trial Debrief Template]] to convert future CI/rebase/review/merge evidence into explicit README/prototype/infographic/skill patch decisions. Status: template-ready, evidence-pending.
 - 2026-06-22: Added [[Merge Queue Trial Evidence Index]] so future proof is mapped to README/prototype/skill patch decisions before claims change. Status: template-ready, evidence-pending.
 
@@ -27,3 +30,6 @@ A fillable trial packet for routing two or more agent PRs through trust rules, C
 
 ## Post-trial debrief
 - [[Merge Queue Post-Trial Debrief Template]] — after the trial packet and evidence index contain real CI/rebase/review links, decide promote / pilot-only / iterate / hold and list exact patch targets. Template-ready; evidence pending.
+
+## Operator handoff
+- [[Merge Queue Trial Operator Handoff Checklist]] — before the dry run, hand this to the operator so packet fields, evidence-index rows, and debrief decisions are completed in order. Operator-ready; evidence pending.
